@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Ejercicio 9 </title>
+ 
+<script type="text/javascript">
+function info(cadena) {
+ 
+  var resultado = "La cadena \""+cadena+"\" ";
+ 
+  // Comprobar mayúsculas y minúsculas
+  if(cadena == cadena.toUpperCase()) {
+    resultado += " Está formada sólo por mayúsculas";
+  }
+  else if(cadena == cadena.toLowerCase()) {
+    resultado += " Está formada sólo por minúsculas";
+  }
+  else {
+    resultado += " Está formada por mayúsculas y minúsculas";
+  }
+ 
+  return resultado;
+}
+ 
+alert(info("HOLA = MUNDO"));
+alert(info("Esta tarea es muy complicada Profe"));
+</script>
+</head>
+ 
+<body>
+</body>
+</html>
